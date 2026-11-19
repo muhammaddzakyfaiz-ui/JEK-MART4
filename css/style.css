@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: "poppins", Arial, sans-serif;
+    color: #526078;
+    line-height: 1.6;
+    background-color: #F1F3F7;
+}
+header {
+    background-color: #17366B;
+    color: white;
+    text-align: center;
+    padding: 32px 16px;
+}
+.logo {
+    width: 500px;
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+header h1 { margin: 0; font-size: 40px; }
+nav { margin-top: 16px; }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 12px;
+}
+nav a :hover { text-decoration: underline; }
+
+main { max-width: 960px; margin: 0 auto; padding: 16px;}
+section {
+    background-color: white;
+    border: 1px solid #eadfd3;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 24px 0;
+}
+h2 {
+    color: #17366B;
+    border-bottom: 3px solid #FFC928;
+    padding-bottom: 8px;
+}
+img { max-width: 100%; height: auto; border-radius: 8px;}
+
+table { width: 100%; border-collapse: collapse;}
+th, td { border: 1px solid #17366B; padding: 10px; text-align: left; }
+th { background-color: #FFC928; }
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-family: inherit;
+}
+button {
+    background-color: #FFC928;
+    color: #17366B;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+button:hover { background-color: #5e3820;}
+
+.tombol-wa {
+    display: inline-block;
+    background-color: #25d366;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.tombol-ig {
+    display: inline-block;
+    background-color: #c725d3;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+.tombol-tiktok {
+    display: inline-block;
+    background-color: #0a000b;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #17366B;
+    color: white;
+    text-align: center;
+    padding: 16px;
+}
